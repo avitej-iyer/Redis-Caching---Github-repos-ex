@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-redis-cache-example",
+  "version": "1.0.0",
+  "description": "A demo application showing how to use redis to cache node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avitej-iyer/Redis-Caching---Github-repos-ex.git"
+  },
+  "keywords": [
+    "node.js",
+    "redis",
+    "cache",
+    "tutorial"
+  ],
+  "author": "Avitej Iyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avitej-iyer/Redis-Caching---Github-repos-ex/issues"
+  },
+  "homepage": "https://github.com/avitej-iyer/Redis-Caching---Github-repos-ex#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
